@@ -1,0 +1,83 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Visual Studio files
+*.suo
+*.ilk
+*.pdb
+*.iobj
+*.ipdb
+*.pdb
+*.ipch
+*.db
+*.idb
+*.log
+*.tlog
+*.lastbuildstate
+*.opendb
+
+*.vcxproj.user
+*.incremental
+*.FileListAbsolute.txt
+
+voxel/voxel.console/Debug/*
+voxel/voxel.console/Release/*
+voxel/voxel.console/x64/Debug/*
+voxel/voxel.console/x64/Release/*
+
+voxel/Voxel/Voxel.Android.Application/x64/*
+voxel/Voxel/Voxel.Android.Application/x86/*
+voxel/Voxel/Voxel/Voxel.Android.Application/x64/*
+voxel/Voxel/Voxel/Voxel.Android.Application/x86/*
+voxel/Voxel/Voxel/Voxel.Android.Application/ARM/Debug/*
+voxel/Voxel/Voxel/Voxel.Android.Application/ARM/Release/*
+voxel/Voxel/Voxel/Voxel.Android.Application/ARM64/Debug/*
+voxel/Voxel/Voxel/Voxel.Android.Application/ARM64/Release/*
+voxel/Voxel/Voxel/Voxel.Android.NativeActivity/x86/Debug/*
+voxel/Voxel/Voxel/Voxel.Android.NativeActivity/x86/Release/*
+voxel/Voxel/Voxel/Voxel.Android.NativeActivity/x64/Debug/*
+voxel/Voxel/Voxel/Voxel.Android.NativeActivity/x64/Release/*
+voxel/Voxel/Voxel/Voxel.Android.NativeActivity/ARM/Debug/*
+voxel/Voxel/Voxel/Voxel.Android.NativeActivity/ARM/Release/*
+voxel/Voxel/Voxel/Voxel.Android.NativeActivity/ARM64/Debug/*
+voxel/Voxel/Voxel/Voxel.Android.NativeActivity/ARM64/Release/*
+voxel/Voxel/x86/Release/*
+voxel/Voxel/x86/Debug/*
+voxel/Voxel/x64/Release/*
+voxel/Voxel/x64/Debug/*
+voxel/Voxel/Debug/*
+voxel/Voxel/ARM/Debug/*
+voxel/Voxel/ARM/Release/*
+voxel/Voxel/ARM64/Debug/*
+voxel/Voxel/ARM64/Release/*
+
+Prototype1/.metadata/.plugins/org.eclipse.core.resources/*
+Prototype1/.metadata/.plugins/org.eclipse.core.runtime/*
+Prototype1/.metadata/.plugins/org.eclipse.cdt.core/*
+Prototype1/.metadata/.plugins/org.eclipse.cdt.ui/*

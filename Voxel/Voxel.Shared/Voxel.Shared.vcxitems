@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{cb1cbd2f-d0c2-4a0b-9e27-d12237f988f0}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CubeMeshFactory.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)DrawableMesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)FEA.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Game.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Mesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)RenderMesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)PlaneMeshFactory.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ShaderProgram.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SimpleRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TetrahedralMesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TetrahedralElementIndices.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CubeMeshFactory.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)DrawableMesh.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)FEA.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Game.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)RenderMesh.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)PlaneMeshFactory.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ShaderProgram.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SimpleRenderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TetrahedralMesh.cpp" />
+  </ItemGroup>
+</Project>
