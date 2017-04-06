@@ -1,5 +1,7 @@
 # Finite-Element-Soft-Body-Physics
 
+https://github.com/taumuon/Finite-Element-Soft-Body-Physics
+
 Required libraries:
 Eigen matrix library
 GLM 3D math library 
